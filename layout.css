@@ -62,7 +62,11 @@ footer{
     main{
         width:95vw;
     }
+    section{
+        flex-wrap: wrap;
+    }
     aside{
         display: none;
     }
+    
 }
