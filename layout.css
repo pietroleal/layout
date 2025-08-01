@@ -35,7 +35,7 @@ section{
     background-color: #cebea8;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+   
 }
 article{
     width: 80%;
@@ -51,4 +51,18 @@ footer{
     width: 100vw;
     min-height: 20vh;
     background-color: #e1d4c2;
+}
+
+@media (min-width:679px) and (max-width:1023px){
+    section{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:678px){
+    main{
+        width:95vw;
+    }
+    aside{
+        display: none;
+    }
 }
