@@ -64,6 +64,7 @@ footer{
     }
     section{
         flex-wrap: wrap;
+        background-color: #e5c4b9;
     }
     aside{
         display: none;
